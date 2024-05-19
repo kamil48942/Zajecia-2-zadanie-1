@@ -24,22 +24,19 @@
             this.txtWynik = new System.Windows.Forms.TextBox();
             this.btnDivide = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // txtDzielna
+            //
             // 
             this.txtDzielna.Location = new System.Drawing.Point(12, 12);
             this.txtDzielna.Name = "txtDzielna";
             this.txtDzielna.Size = new System.Drawing.Size(100, 20);
             this.txtDzielna.TabIndex = 0;
             // 
-            // txtDzielnik
             // 
             this.txtDzielnik.Location = new System.Drawing.Point(12, 38);
             this.txtDzielnik.Name = "txtDzielnik";
             this.txtDzielnik.Size = new System.Drawing.Size(100, 20);
             this.txtDzielnik.TabIndex = 1;
             // 
-            // txtWynik
             // 
             this.txtWynik.Location = new System.Drawing.Point(12, 64);
             this.txtWynik.Name = "txtWynik";
@@ -47,7 +44,6 @@
             this.txtWynik.Size = new System.Drawing.Size(100, 20);
             this.txtWynik.TabIndex = 2;
             // 
-            // btnDivide
             // 
             this.btnDivide.Location = new System.Drawing.Point(12, 90);
             this.btnDivide.Name = "btnDivide";
@@ -57,7 +53,6 @@
             this.btnDivide.UseVisualStyleBackColor = true;
             this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
-            // Form1
             // 
             this.ClientSize = new System.Drawing.Size(284, 161);
             this.Controls.Add(this.btnDivide);
